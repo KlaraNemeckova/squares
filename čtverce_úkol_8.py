@@ -65,4 +65,20 @@ def square_e(size):
        print(" " * n + symbol * k + " " * n)
        n -= 2
        k += 2 
+
+# f
+
+def square_f(size):
+    n = 1
+    k = size - 1
+    for i in range(int(size/2)):
+        print(symbol * n + "  " * k + symbol * n)
+        n += 1
+        k -= 2
+    n = 1
+    k = int(size/2)
+    for i in range(int(size/2)):
+        print(symbol * k + "  " * n + symbol * k)
+        n += 2
+        k -= 1          
        
