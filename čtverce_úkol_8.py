@@ -80,5 +80,21 @@ def square_f(size):
     for i in range(int(size/2)):
         print(symbol * k + "  " * n + symbol * k)
         n += 2
-        k -= 1          
+        k -= 1   
+
+# g
+
+def square_g(size):
+   n = 0
+   k = size
+   for i in range(int(size/2)):
+      print(symbol * n + " " * k)
+      n += 1
+      k -= 1
+   n = 0
+   k = int(size/2)
+   for i in range(int(size/2)):
+      print(symbol * k + (" ") * n)
+      n += 2
+      k -= 1                  
        
