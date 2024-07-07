@@ -96,5 +96,22 @@ def square_g(size):
    for i in range(int(size/2)):
       print(symbol * k + (" ") * n)
       n += 2
-      k -= 1                  
+      k -= 1         
+
+# h
+
+def square_h(size):
+   n = 1
+   k = int(size/2) - 1
+   for i in range(int(size/2)):
+      print("  " * k + symbol * n)
+      n += 1
+      k -= 1    
+   n = 0
+   k = int(size/2)
+   for i in range(int(size/2)):
+      print("  " * n + symbol * k)
+      n += 1
+      k -= 1
+                  
        
