@@ -1,7 +1,7 @@
+# a 
 
 symbol = input("Symbol tvořící čtverec: ") + " "
 
-# a 
 def square_a(size):
     n = 0
     k = size
@@ -25,4 +25,16 @@ def square_b(size):
        k -= 1
        
 square_b(int(input("Strana čtverce (sudé číslo): ")))
+
+# c
+
+def square_c(size):
+    n = 0
+    k = size
+    for i in range(int(size/2)):
+       print(" " * n + symbol * k + " " * n)
+       n += 2
+       k -= 2
+    for i in range(int(size/2)):
+        print(" " * size) 
 
