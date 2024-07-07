@@ -26,7 +26,7 @@ def square_b(size):
        
 square_b(int(input("Strana čtverce (sudé číslo): ")))
 
-# c
+# c - pro přehlednost píšu už jen funkce (bez inputů od uživatele)
 
 def square_c(size):
     n = 0
@@ -38,3 +38,14 @@ def square_c(size):
     for i in range(int(size/2)):
         print(" " * size) 
 
+# d
+
+def square_d(size):
+    n = size
+    k = 0
+    for i in range(int(size/2)):
+        print(" " * size)   
+    for i in range(int(size/2)):
+       print(" " * n + symbol * k + " " * n)
+       n -= 2
+       k += 2
