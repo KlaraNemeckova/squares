@@ -123,6 +123,15 @@ def square_i(size):
        print(symbol * k + (" ") * n)
        n += 2
        k -= 1
-            
+
+# j
+
+def square_j(size):
+    n = 0
+    k = size
+    for i in range(size):
+       print("  " * k + symbol * n)
+       n += 1
+       k -= 1           
                   
        
