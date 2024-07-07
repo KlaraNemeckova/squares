@@ -113,5 +113,16 @@ def square_h(size):
       print("  " * n + symbol * k)
       n += 1
       k -= 1
+
+# i
+
+def square_i(size):
+    n = 0
+    k = size
+    for i in range(size):
+       print(symbol * k + (" ") * n)
+       n += 2
+       k -= 1
+            
                   
        
