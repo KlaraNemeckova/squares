@@ -49,3 +49,20 @@ def square_d(size):
        print(" " * n + symbol * k + " " * n)
        n -= 2
        k += 2
+
+# e
+
+def square_e(size):
+    k = size
+    n = 0
+    for i in range(int(size/2)):
+       print(" " * n + symbol * k + " " * n)
+       n +=2
+       k -=2
+    n = size - 2
+    k = 2
+    for i in range(int(size/2)):
+       print(" " * n + symbol * k + " " * n)
+       n -= 2
+       k += 2 
+       
